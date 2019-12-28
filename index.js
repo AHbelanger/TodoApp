@@ -1,0 +1,7 @@
+import React from 'react'
+import {AppRegistry} from 'react-native';
+import App from './app/App';
+
+	const myProject = () => <App />
+
+AppRegistry.registerComponent('myProject', () => myProject);
